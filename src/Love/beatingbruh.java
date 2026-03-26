@@ -1,8 +1,10 @@
+package Love;
+
 public class beatingbruh {
     public static void main(String[] args) throws InterruptedException {
         String input = getInput();
 
-        if (input.equalsIgnoreCase("love")) {
+        if (input.equalsIgnoreCase("Love.love")) {
             while (true) {
                 printHeart(8); // small heart
                 Thread.sleep(300);

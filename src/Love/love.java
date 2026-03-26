@@ -1,3 +1,5 @@
+package Love;
+
 import java.util.Scanner;
 
     public class love {
@@ -8,7 +10,7 @@ import java.util.Scanner;
             System.out.print("what you want: ");
             String input = sc.nextLine().trim();
 
-            if (input.equalsIgnoreCase("love")) {
+            if (input.equalsIgnoreCase("Love.love")) {
                 int size = 10;
 
                 // Upper part of the heart
@@ -39,7 +41,7 @@ import java.util.Scanner;
                     System.out.println();
                 }
             } else {
-                System.out.println("No more heart left my love try next time.");
+                System.out.println("No more heart left my Love.love try next time.");
             }
 
             sc.close();
